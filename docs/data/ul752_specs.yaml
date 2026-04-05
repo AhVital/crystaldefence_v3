@@ -1,0 +1,247 @@
+# 🔧 UL 752 Standard - Technical Specifications (EN/UA/RU)
+
+en:
+  levels:
+    rl1:
+      code: "RL-1"
+      name:
+        en: "Basic Protection Level 1"
+        ua: "Базовий рівень захисту RL-1"
+        ru: "Базовый уровень защиты RL-1"
+      thickness: "4-6mm"
+      description:
+        en: "Protection against knives and handgun bullets up to 9mm. Ideal for basic office protection."
+        ua: "Захист від ножів та куль до 9мм. Ідеально для базового захисту офісів."
+        ru: "Защита от ножей и пуль до 9мм. Идеально для базовой защиты офисов."
+      applications:
+        en: "Offices, Banks (basic protection)"
+        ua: "Офіси, Банки (базовий захист)"
+        ru: "Офисы, Банки (базовая защита)"
+    
+    rl2:
+      code: "RL-2"
+      name:
+        en: "Protection Level 2"
+        ua: "Рівень захисту RL-2"
+        ru: "Уровень защиты RL-2"
+      thickness: "7-8mm"
+      description:
+        en: "Protection against pistol caliber up to .357 Magnum. Suitable for ATMs and bank terminals."
+        ua: "Захист від пістолетних калібрів до .357 Магнум. Підходить для банкоматів."
+        ru: "Защита от пистолетного калибра до .357 Magnum. Подойдет для банкоматов."
+      applications:
+        en: "ATMs, Bank Terminals"
+        ua: "Банкомати, Термінали"
+        ru: "Банкоматы, Терминалы"
+
+    rl3:
+      code: "RL-3"
+      name:
+        en: "Protection Level 3"
+        ua: "Рівень захисту RL-3"
+        ru: "Уровень защиты RL-3"
+      thickness: "10-12mm"
+      description:
+        en: "Protection against semi-automatic pistols and shotguns. Suitable for retail kiosks."
+        ua: "Захист від напівавтоматичних пістолетів та дробовиків. Підходить для торгових кіосків."
+        ru: "Защита от полуавтоматических пистолетов и дробовиков. Подходит для торговых киосков."
+      applications:
+        en: "Retail Kiosks, Public Buildings"
+        ua: "Торгові Кіоски, Публічні Будинки"
+        ru: "Розничные киоски, Публичные здания"
+
+    rl4:
+      code: "RL-4"
+      name:
+        en: "Protection Level 4"
+        ua: "Рівень захисту RL-4"
+        ru: "Уровень защиты RL-4"
+      thickness: "12-15mm"
+      description:
+        en: "Protection against rifle rounds (5.56mm). Suitable for high-risk areas."
+        ua: "Захист від стрілецьких пострілів (5.56мм). Підходить для зон високого ризику."
+        ru: "Защита от винтовочных пуль (5.56мм). Подходит для зон высокого риска."
+      applications:
+        en: "VPK Zones, Government Buildings"
+        ua: "Зони ВПК, Урядові Будинки"
+        ru: "Зоны ВПК, Государственные здания"
+
+    rl5:
+      code: "RL-5"
+      name:
+        en: "Protection Level 5"
+        ua: "Рівень захисту RL-5"
+        ru: "Уровень защиты RL-5"
+      thickness: "25-30mm"
+      description:
+        en: "Protection against high-powered pistol rounds and fragmentation. Elite security."
+        ua: "Захист від потужних пістолетних пострілів та фрагментації. Елітний захист."
+        ru: "Защита от мощных пистолетных пуль и осколков. Элитная безопасность."
+      applications:
+        en: "VIP Areas, Bunkers"
+        ua: "Зони VIP, Бункери"
+        ru: "VIP зоны, Бункеры"
+
+    rl6:
+      code: "RL-6"
+      name:
+        en: "Protection Level 6"
+        ua: "Рівень захисту RL-6"
+        ru: "Уровень защиты RL-6"
+      thickness: "40-50mm"
+      description:
+        en: "Protection against .50 BMG rounds. Military-grade security for elite facilities."
+        ua: "Захист від куль .50 BMG. Воєнний стандарт для елітних об'єктів."
+        ru: "Защита от пуль .50 BMG. Военный стандарт для элитных объектов."
+      applications:
+        en: "Elite Bases, Military Facilities"
+        ua: "Елітні Базі, Воєнні Об'єкти"
+        ru: "Элитные базы, Военные объекты"
+
+    rl7:
+      code: "RL-7"
+      name:
+        en: "Protection Level 7"
+        ua: "Рівень захисту RL-7"
+        ru: "Уровень защиты RL-7"
+      thickness: "80-100mm"
+      description:
+        en: "Protection against tank fire (20mm). Extreme defense for military checkpoints."
+        ua: "Захист від танкової вогневої (20мм). Екстремальний захист для ВПК."
+        ru: "Защита от огнемета танка (20мм). Экстремальная защита для военных КПП."
+      applications:
+        en: "Military Checkpoints, Elite Bunkers"
+        ua: "Військові КПП, Елітні Бункери"
+        ru: "Военные КПП, Элитные бункеры"
+
+    rl8:
+      code: "RL-8"
+      name:
+        en: "Protection Level 8"
+        ua: "Рівень захисту RL-8"
+        ru: "Уровень защиты RL-8"
+      thickness: "120+mm"
+      description:
+        en: "Maximum protection against artillery fire (155mm). Ultimate bunker defense."
+        ua: "Максимальний захист від артилерії (155мм). Абсолютна захист бункерів."
+        ru: "Максимальная защита от артиллерии (155мм). Абсолютная защита бункеров."
+      applications:
+        en: "Command Centers, Nuclear Facilities"
+        ua: "Керівні Центри, Ядерні Об'єкти"
+        ru: "Командные центры, Ядерные объекты"
+
+ua:
+  levels:
+    rl1:
+      code: "RL-1"
+      name: "Базовий рівень захисту RL-1"
+      thickness: "4-6мм"
+      description: "Захист від ножів та куль до 9мм. Ідеально для базового захисту офісів."
+      applications: "Офіси, Банки (базовий захист)"
+    
+    rl2:
+      code: "RL-2"
+      name: "Рівень захисту RL-2"
+      thickness: "7-8мм"
+      description: "Захист від пістолетних калібрів до .357 Магнум. Підходить для банкоматів."
+      applications: "Банкомати, Термінали"
+
+    rl3:
+      code: "RL-3"
+      name: "Рівень захисту RL-3"
+      thickness: "10-12мм"
+      description: "Захист від напівавтоматичних пістолетів та дробовиків. Підходить для торгових кіосків."
+      applications: "Торгові Кіоски, Публічні Будинки"
+
+    rl4:
+      code: "RL-4"
+      name: "Рівень захисту RL-4"
+      thickness: "12-15мм"
+      description: "Захист від стрілецьких пострілів (5.56мм). Підходить для зон високого ризику."
+      applications: "Зони ВПК, Урядові Будинки"
+
+    rl5:
+      code: "RL-5"
+      name: "Рівень захисту RL-5"
+      thickness: "25-30мм"
+      description: "Захист від потужних пістолетних пострілів та фрагментації. Елітний захист."
+      applications: "Зони VIP, Бункери"
+
+    rl6:
+      code: "RL-6"
+      name: "Рівень захисту RL-6"
+      thickness: "40-50мм"
+      description: "Захист від куль .50 BMG. Воєнний стандарт для елітних об'єктів."
+      applications: "Елітні Базі, Воєнні Об'єкти"
+
+    rl7:
+      code: "RL-7"
+      name: "Рівень захисту RL-7"
+      thickness: "80-100мм"
+      description: "Захист від танкової вогневої (20мм). Екстремальний захист для ВПК."
+      applications: "Військові КПП, Елітні Бункери"
+
+    rl8:
+      code: "RL-8"
+      name: "Рівень захисту RL-8"
+      thickness: "120+мм"
+      description: "Максимальний захист від артилерії (155мм). Абсолютна захист бункерів."
+      applications: "Керівні Центри, Ядерні Об'єкти"
+
+ru:
+  levels:
+    rl1:
+      code: "RL-1"
+      name: "Базовый уровень защиты RL-1"
+      thickness: "4-6мм"
+      description: "Защита от ножей и пуль до 9мм. Идеально для базовой защиты офисов."
+      applications: "Офисы, Банки (базовая защита)"
+
+    rl2:
+      code: "RL-2"
+      name: "Уровень защиты RL-2"
+      thickness: "7-8мм"
+      description: "Защита от пистолетного калибра до .357 Magnum. Подойдет для банкоматов."
+      applications: "Банкоматы, Терминалы"
+
+    rl3:
+      code: "RL-3"
+      name: "Уровень защиты RL-3"
+      thickness: "10-12мм"
+      description: "Защита от полуавтоматических пистолетов и дробовиков. Подходит для торговых киосков."
+      applications: "Розничные киоски, Публичные здания"
+
+    rl4:
+      code: "RL-4"
+      name: "Уровень защиты RL-4"
+      thickness: "12-15мм"
+      description: "Защита от винтовочных пуль (5.56мм). Подходит для зон высокого риска."
+      applications: "Зоны ВПК, Государственные здания"
+
+    rl5:
+      code: "RL-5"
+      name: "Уровень защиты RL-5"
+      thickness: "25-30мм"
+      description: "Защита от мощных пистолетных пуль и осколков. Элитная безопасность."
+      applications: "VIP зоны, Бункеры"
+
+    rl6:
+      code: "RL-6"
+      name: "Уровень защиты RL-6"
+      thickness: "40-50мм"
+      description: "Защита от пуль .50 BMG. Военный стандарт для элитных объектов."
+      applications: "Элитные базы, Военные объекты"
+
+    rl7:
+      code: "RL-7"
+      name: "Уровень защиты RL-7"
+      thickness: "80-100мм"
+      description: "Защита от огнемета танка (20мм). Экстремальная защита для военных КПП."
+      applications: "Военные КПП, Элитные бункеры"
+
+    rl8:
+      code: "RL-8"
+      name: "Уровень защиты RL-8"
+      thickness: "120+мм"
+      description: "Максимальная защита от артиллерии (155мм). Абсолютная защита бункеров."
+      applications: "Командные центры, Ядерные объекты"

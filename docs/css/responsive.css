@@ -1,0 +1,130 @@
+/* ========== RESPONSIVE DESIGN SYSTEM ========== */
+
+/* Large Desktop - Default (1200px+) */
+@media (min-width: 1200px) {
+  html { font-size: 16px; }
+}
+
+/* Tablet Portrait (768px - 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .header { padding: 1rem 1.5rem; }
+  
+  .hero__content h1 { font-size: 3rem; }
+  
+  .features { padding: 4rem 1.5rem; }
+  
+  .card { padding: 1.5rem; }
+}
+
+/* Tablet Landscape (800px - 1199px) */
+@media (max-width: 1199px) and (min-width: 800px) {
+  .header__nav { gap: 2rem; }
+  
+  .hero__content h1 { font-size: 3.5rem; }
+}
+
+/* Mobile Portrait (480px - 767px) */
+@media (max-width: 767px) {
+  html { font-size: 14px; }
+  
+  .header { padding: 0.875rem 1rem; }
+  
+  .header__nav { 
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  .hero { min-height: auto; padding-top: 120px; }
+  
+  .hero__content h1 { font-size: 2.25rem; margin-bottom: 1rem; }
+  
+  .hero__subtitle { font-size: 1.125rem; }
+  
+  .hero__description { font-size: 1rem; }
+  
+  .btn { 
+    width: 100%; 
+    padding: 0.875rem 1.5rem; 
+    font-size: 1rem; 
+  }
+  
+  .features { padding: 3rem 1rem; }
+  
+  .card { padding: 1.25rem; }
+  
+  .footer { padding: 1.5rem; }
+  
+  /* Disable heavy animations on mobile for performance */
+  .product-card,
+  .feature-card {
+    transition-duration: 0.2s !important;
+  }
+}
+
+/* Mobile Small (< 480px) */
+@media (max-width: 479px) {
+  html { font-size: 13px; }
+  
+  .header { padding: 0.75rem 0.875rem; }
+  
+  .header__nav { gap: 1.25rem; font-size: 0.875rem; }
+  
+  .hero__content h1 { font-size: 2rem; margin-bottom: 0.875rem; }
+  
+  .hero__subtitle { font-size: 1rem; }
+  
+  .hero__description { font-size: 0.875rem; line-height: 1.6; }
+  
+  .btn { 
+    width: 100%; 
+    padding: 0.75rem 1.25rem; 
+    font-size: 0.875rem; 
+    letter-spacing: 0.5px;
+  }
+  
+  .features { padding: 2rem 0.75rem; }
+  
+  .card { padding: 1rem; }
+  
+  .footer { padding: 1.25rem; }
+}
+
+/* ========== MEDIA QUERIES FOR FEATURES GRID ========== */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; gap: 1.5rem; }
+}
+
+/* ========== ACCESSIBILITY =========*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Focus visible for keyboard navigation */
+*:focus-visible {
+  outline: 2px solid #8bc34a;
+  outline-offset: 2px;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  
+  .hero__content,
+  .card {
+    transition: none !important;
+  }
+  
+  [data-animate="reveal"] {
+    opacity: 1;
+    transform: translateY(0);
+    transition: none;
+  }
+}

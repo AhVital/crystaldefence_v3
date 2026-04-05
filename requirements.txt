@@ -1,0 +1,11 @@
+# Crystal Defence V3 - Python Dependencies for Jinja2 Builder
+
+jinja2>=3.1.0          # Template engine для сборки Jinja2 → HTML
+lxml>=4.9.0            # HTML/XML парсер (опционально)
+
+# Для Git операций
+gitpython>=3.1.0       # Управление репозиторием
+
+# Для валидации
+html5lib>=1.1          # HTML валидация
+beautifulsoup4>=4.12   # DOM анализ для Puppeteer

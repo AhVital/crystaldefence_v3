@@ -1,0 +1,116 @@
+# 🌐 Crystal Defence - Translations & Terms (EN/UA/RU)
+
+languages:
+  - code: "en"
+    name: "English (US)"
+    locale: "en-US"
+    native_name: "English"
+    
+  - code: "ua"
+    name: "Українська"
+    locale: "uk-UA"
+    native_name: "Українська"
+    
+  - code: "ru"
+    name: "Русский"
+    locale: "ru-RU"
+    native_name: "Русский"
+
+common_terms:
+  bulletproof_glass:
+    en: "Bulletproof Glass"
+    ua: "Антиброне Скло"
+    ru: "Антиброне Стекло"
+    
+  armored_windows:
+    en: "Armored Windows"
+    ua: "Захищені Вікна"
+    ru: "Защищенные Окна"
+    
+  protection_level:
+    en: "Protection Level"
+    ua: "Рівень Захисту"
+    ru: "Уровень Защиты"
+
+  view_products:
+    en: "View Products"
+    ua: "Переглянути"
+    ru: "Просмотреть"
+    
+  learn_more:
+    en: "Learn More"
+    ua: "Дізнатись більше"
+    ru: "Узнать больше"
+    
+  contact_us:
+    en: "Contact Us"
+    ua: "Контакти"
+    ru: "Контакты"
+
+  footer_contact_info:
+    city:
+      en: "Kyiv, Ukraine"
+      ua: "Київ, Україна"
+      ru: "Киев, Украина"
+    year:
+      en: "2026"
+      ua: "2026"
+      ru: "2026"
+    phone_suffix:
+      en: "Toll Free"
+      ua: "Безкоштовно"
+      ru: "Бесплатно"
+
+  page_titles:
+    home:
+      en: "Home"
+      ua: "Головна"
+      ru: "Главная"
+    
+    products:
+      en: "Products"
+      ua: "Продукція"
+      ru: "Продукция"
+    
+    about:
+      en: "About Us"
+      ua: "Про Нас"
+      ru: "О нас"
+    
+    contact:
+      en: "Contact"
+      ua: "Контакти"
+      ru: "Контакты"
+
+  navigation:
+    menu_label:
+      en: "MENU"
+      ua: "МЕНЮ"
+      ru: "МЕНЮ"
+    
+    search_label:
+      en: "Search..."
+      ua: "Пошук..."
+      ru: "Поиск..."
+
+  calls_to_action:
+    get_quote:
+      en: "Get a Quote"
+      ua: "Отримати Замовлення"
+      ru: "Получить Котировку"
+    
+    request_demo:
+      en: "Request Demo"
+      ua: "Запитати Демо"
+      ru: "Запросить Демонстрацию"
+
+  certification_info:
+    certified_text:
+      en: "UL 752 Certified"
+      ua: "Сертифіковано UL 752"
+      ru: "Сертифицировано UL 752"
+    
+    standard_text:
+      en: "UL 752 Standard"
+      ua: "Стандарт UL 752"
+      ru: "Стандарт UL 752"

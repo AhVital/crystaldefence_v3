@@ -1,0 +1,26 @@
+# UL 752 Glass Protection Levels
+ul752_levels:
+  - code: "04"
+    thickness: "6.4 mm to 8.0 mm"
+    english_description: "Level 4 provides protection against high-velocity rifle threats, suitable for bank teller cages and armored vehicles."
+    russian_description: "Уровень 4 обеспечивает защиту от скорострельных винтовочных угроз, подходит для банковских касс и бронированных автомобилей."
+  
+  - code: "05"
+    thickness: "8.0 mm to 12.7 mm"
+    english_description: "Level 5 is designed for residential protection and light commercial applications against handgun threats."
+    russian_description: "Уровень 5 разработан для residential защиты и легкой коммерческой защиты от огнестрельного оружия."
+  
+  - code: "06"
+    thickness: "12.7 mm to 23 mm"
+    english_description: "Level 6 offers enhanced protection for high-security facilities and military applications against explosive weapons."
+    russian_description: "Уровень 6 предлагает улучшенную защиту для высокотехнологичных объектов и военных приложений от взрывного оружия."
+  
+  - code: "07"
+    thickness: "23 mm to 35 mm"
+    english_description: "Level 7 provides maximum ballistic protection for armored vehicles and high-security government buildings."
+    russian_description: "Уровень 7 обеспечивает максимальную баллистическую защиту для бронированных автомобилей и объектов государственной важности."
+  
+  - code: "08"
+    thickness: "35 mm to 44 mm"
+    english_description: "Level 8 represents the highest standard, designed for elite protection against heavy weaponry and sustained attacks."
+    russian_description: "Уровень 8 представляет собой высший стандарт защиты от тяжелого оружия и длительных атак."

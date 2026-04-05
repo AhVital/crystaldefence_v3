@@ -1,0 +1,46 @@
+# 📝 Crystal Defence - Main Site Content (EN/UA/RU)
+
+en:
+  hero_title: "Crystal Defence"
+  hero_subtitle: "Premium Armored Glass Solutions for Ultimate Protection"
+  description: "Founded in 2012 in Kiev, Ukraine, Crystal Defence has established itself as a leading manufacturer of UL 752 certified armored glass solutions. We specialize in custom thickness production ranging from basic RL-1 to elite RL-8 protection levels."
+  
+  advantages:
+    - title: "UL 752 Certified"
+      description: "All our products are UL 752 certified for guaranteed protection levels"
+    - title: "Custom Production"
+      description: "Tailored thickness options from 4mm to 100mm+ per your requirements"
+    - title: "24/7 Support"
+      description: "Round-the-clock support team and global shipping network"
+    
+  cta_button: "Explore Our Products"
+
+ua:
+  hero_title: "Кристал Діфенс"
+  hero_subtitle: "Премиум броньове скло для максимального захисту"
+  description: "Заснована у 2012 році в Києві, Україна, Crystal Defence стала одним із лідерів виробництва сертифікованих рішень UL 752. Спеціалізуємося на індивідуальному виготовленні товщин від базового RL-1 до елітного RL-8."
+  
+  advantages:
+    - title: "Сертифікація UL 752"
+      description: "Всі наші продукти сертифіковані UL 752 для гарантованого захисту"
+    - title: "Індивідуальне виробництво"
+      description: "Налаштовані товщини від 4мм до 100мм+ за вашим замовленням"
+    - title: "Підтримка 24/7"
+      description: "Догляд та доставка по всьому світу"
+    
+  cta_button: "Переглянути продукцію"
+
+ru:
+  hero_title: "Кристал Дифенс"
+  hero_subtitle: "Премиальное бронированое стекло для максимальной защиты"
+  description: "Основанная в 2012 году в Киеве, Украина, Crystal Defence стала ведущим производителем антиброне стекла UL 752. Специализируемся на индивидуальном производстве толщины от базового RL-1 до элитного RL-8."
+  
+  advantages:
+    - title: "Сертификат UL 752"
+      description: "Все наши продукты сертифицированы UL 752 для гарантированной защиты"
+    - title: "Индивидуальное производство"
+      description: "Настраиваемая толщина от 4мм до 100мм+ по вашим требованиям"
+    - title: "Поддержка 24/7"
+      description: "Круглосуточная поддержка и международная доставка"
+    
+  cta_button: "Просмотреть продукцию"

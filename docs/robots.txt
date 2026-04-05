@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vital.github.io/crystaldefence_v3/sitemap.xml
