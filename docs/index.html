@@ -3,165 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Crystal Defence - Premium Armored Glass Solutions for Ultimate Protection since 2012. UL 752 certified products for residential, commercial, and vehicle applications.">
-    <meta name="keywords" content="armored glass, ballistic glass, UL 752, bulletproof glass, security glass, Kiev Ukraine">
-    <title>Crystal Defence - Official Website | Premium Armored Glass Solutions</title>
+    <meta name="description" content="Crystal Defence - Premium Armored Glass Solutions for Ultimate Protection since 2012">
+    <title>Crystal Defence - Home</title>
     
-    <!-- Preconnect to improve font loading -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    
-    <!-- Stylesheets -->
+    <!-- Подключение стилей -->
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/animations.css">
 </head>
 
 <body class="home-page">
-    <!-- Header with Navigation -->
+    <!-- Header Navigation -->
     <header class="header">
         <nav class="header__nav">
-            <a href="#products" data-section="products" lang="en">Products</a>
-            <a href="#about" data-section="about" lang="en">About Us</a>
-            <a href="#contact" data-section="contact" lang="en">Contact</a>
+            <a href="#products" data-section="products">Products</a>
+            <a href="#about" data-section="about">About Us</a>
+            <a href="#contact" data-section="contact">Contact</a>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero__background video-container">
-            <!-- Video fallback - uncomment if hero-video.mp4 exists in assets/ -->
-            <!-- 
-            <video autoplay muted loop playsinline>
-                <source src="/img/page1/hero-video.mp4" type="video/mp4">
-                <p>Your browser does not support HTML5 video.</p>
-            </video> 
-            -->
+    <section class="hero">
+        <div class="hero__background">
+            <!-- Background image from page1 -->
+            <img src="/img/page1/background1.png" alt="" class="hero-bg" style="opacity: 0.6;">
         </div>
-        
         <div class="hero__content">
             <h1 data-i18n="hero_title">Crystal Defence</h1>
             <p class="hero__subtitle" data-i18n="hero_subtitle">
                 Premium Armored Glass Solutions for Ultimate Protection
             </p>
             <p class="hero__description" data-i18n="hero_description">
-                Founded in 2012 in Kiev, Ukraine, Crystal Defence has established 
-                itself as a leading manufacturer of UL 752 certified armored glass solutions.
+                Founded in 2012 in Kiev, Ukraine, Crystal Defence has established itself as a leading manufacturer of UL 752 certified armored glass solutions. We specialize in custom thickness production ranging from basic RL-1 to elite RL-8 protection levels.
             </p>
-            <a href="#products" class="btn rippleable" data-i18n="cta_button">Explore Our Products</a>
+            <a href="#products" class="btn" data-i18n="cta_button">Explore Our Products</a>
         </div>
     </section>
 
-    <!-- Features/Advantages Section -->
-    <section class="features" id="advantages">
+    <!-- Logo Section -->
+    <section class="logo-section">
+        <img src="/img/page1/logo.png" alt="Crystal Defence Logo" style="max-width: 200px;">
+    </section>
+
+    <!-- Advantages/Features -->
+    <section class="features">
         <h2 class="section-title" data-i18n="advantages_title">Why Choose Us</h2>
-        
         <div class="grid">
-            <!-- Feature 1 -->
-            <article class="card feature-card" data-animate="reveal">
+            <article class="card feature-card">
                 <h3 data-i18n="advantage_1_title">UL 752 Certified</h3>
                 <p data-i18n="advantage_1_desc">All our products are UL 752 certified for guaranteed protection levels.</p>
             </article>
-            
-            <!-- Feature 2 -->
-            <article class="card feature-card" data-animate="reveal">
+
+            <article class="card feature-card">
                 <h3 data-i18n="advantage_2_title">Custom Manufacturing</h3>
-                <p data-i18n="advantage_2_desc">Tailored solutions for residential, commercial, and vehicle applications.</p>
+                <p data-i18n="advantage_2_desc">Tailored thickness options from 4mm to 100mm+ per your requirements.</p>
             </article>
-            
-            <!-- Feature 3 -->
-            <article class="card feature-card" data-animate="reveal">
+
+            <article class="card feature-card">
                 <h3 data-i18n="advantage_3_title">Global Expertise</h3>
-                <p data-i18n="advantage_3_desc">Serving clients worldwide since 2012 with proven reliability.</p>
+                <p data-i18n="advantage_3_desc">24/7 support team and global shipping network for worldwide delivery.</p>
             </article>
-            
-            <!-- Feature 4 -->
-            <article class="card feature-card" data-animate="reveal">
-                <h3 data-i18n="advantage_4_title">Certified Quality</h3>
-                <p data-i18n="advantage_4_desc">ISO certified manufacturing with rigorous quality controls.</p>
+
+            <article class="card feature-card">
+                <h3 data-i18n="advantage_4_title">Premium Quality</h3>
+                <p data-i18n="advantage_4_desc">Industry-leading standards in bulletproof glass manufacturing since 2012.</p>
             </article>
-            
-            <!-- Feature 5 -->
-            <article class="card feature-card" data-animate="reveal">
-                <h3 data-i18n="advantage_5_title">Fast Response</h3>
-                <p data-i18n="advantage_5_desc">Rapid deployment capabilities for emergency security upgrades.</p>
+
+            <article class="card feature-card">
+                <h3 data-i18n="advantage_5_title">Expert Support</h3>
+                <p data-i18n="advantage_5_desc">Dedicated technical support team to assist with all your security needs.</p>
             </article>
-            
-            <!-- Feature 6 -->
-            <article class="card feature-card" data-animate="reveal">
-                <h3 data-i18n="advantage_6_title">Expert Support</h3>
-                <p data-i18n="advantage_6_desc">Dedicated technical support for installation and maintenance.</p>
+
+            <article class="card feature-card">
+                <h3 data-i18n="advantage_6_title">Custom Solutions</h3>
+                <p data-i18n="advantage_6_desc">Tailored armored glass solutions for offices, banks, and high-security facilities.</p>
             </article>
         </div>
     </section>
 
-    <!-- Call to Action Section -->
-    <section class="hero cta-section" id="contact">
-        <div class="hero__content">
-            <h2 data-i18n="cta_hero_title">Ready to Protect What Matters?</h2>
-            <p data-i18n="cta_hero_subtitle">Contact us today for a free consultation and product recommendations.</p>
-            <a href="mailto:info@crystaldefence.com" class="btn rippleable">Get in Touch</a>
+    <!-- Impact Background -->
+    <section class="impact-section">
+        <img src="/img/page1/hero_impact.png" alt="" style="opacity: 0.3;">
+        <div class="impact-content">
+            <h2 data-i18n="impact_title">Unmatched Protection</h2>
+            <p data-i18n="impact_desc">From basic office protection to elite military-grade security, we deliver.</p>
         </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2 data-i18n="cta_section_title">Ready to Upgrade Your Security?</h2>
+        <p data-i18n="cta_section_desc">Contact us today for a custom quote on UL 752 certified glass solutions.</p>
+        <a href="#contact" class="btn" data-i18n="contact_cta">Get a Quote</a>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p data-i18n="footer_info">Kyiv, Ukraine | &copy; 2026 Crystal Defence</p>
-        <a href="mailto:info@crystaldefence.com" lang="en">info@crystaldefence.com</a>
-        <span>+380000000001</span>
+        <div class="footer__content">
+            <p data-i18n="footer_info">Kyiv, Ukraine | &copy; 2026 Crystal Defence</p>
+            <span class="contact-info" style="margin-top: 10px;">
+                <a href="mailto:info@crystaldefence.com">info@crystaldefence.com</a><br>
+                +380000000001
+            </span>
+        </div>
     </footer>
 
-    <!-- JavaScript Files -->
+    <!-- Подключение скриптов -->
     <script src="/js/app.js"></script>
     <script src="/js/animations.js"></script>
-    
-    <!-- I18n Translations Script (Inline for simplicity) -->
-    <script>
-        // Simple translation object for demonstration
-        const translations = {
-            hero_title: "Crystal Defence",
-            hero_subtitle: "Premium Armored Glass Solutions for Ultimate Protection",
-            hero_description: "Founded in 2012 in Kiev, Ukraine, Crystal Defence has established itself as a leading manufacturer of UL 752 certified armored glass solutions.",
-            cta_button: "Explore Our Products",
-            advantages_title: "Why Choose Us",
-            advantage_1_title: "UL 752 Certified",
-            advantage_1_desc: "All our products are UL 752 certified for guaranteed protection levels.",
-            advantage_2_title: "Custom Manufacturing",
-            advantage_2_desc: "Tailored solutions for residential, commercial, and vehicle applications.",
-            advantage_3_title: "Global Expertise",
-            advantage_3_desc: "Serving clients worldwide since 2012 with proven reliability.",
-            advantage_4_title: "Certified Quality",
-            advantage_4_desc: "ISO certified manufacturing with rigorous quality controls.",
-            advantage_5_title: "Fast Response",
-            advantage_5_desc: "Rapid deployment capabilities for emergency security upgrades.",
-            advantage_6_title: "Expert Support",
-            advantage_6_desc: "Dedicated technical support for installation and maintenance.",
-            cta_hero_title: "Ready to Protect What Matters?",
-            cta_hero_subtitle: "Contact us today for a free consultation and product recommendations.",
-            footer_info: "Kyiv, Ukraine | &copy; 2026 Crystal Defence"
-        };
-
-        // Apply translations if lang attribute is set
-        const applyTranslations = () => {
-            document.querySelectorAll('[data-i18n]').forEach(element => {
-                const key = element.getAttribute('data-i18n');
-                if (translations[key]) {
-                    element.textContent = translations[key];
-                }
-            });
-        };
-
-        // Apply on load
-        document.addEventListener('DOMContentLoaded', () => {
-            applyTranslations();
-            initSmoothScroll();
-            initLazyLoading();
-            initScrollAnimations();
-            animateHeroEntrance();
-            initCardAnimations();
-            initParallax();
-            handleVideoBackground();
-            initRippleEffect();
-        });
-    </script>
 </body>
 </html>
